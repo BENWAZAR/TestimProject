@@ -1,8 +1,5 @@
 name: Testim Tests
-on: 
-  pull_request:
-    branches:
-      - master
+on:   workflow_dispatch
 jobs:
     run-testimio-cli:
         runs-on: ubuntu-latest
