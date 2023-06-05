@@ -1,6 +1,6 @@
 name: Testim Tests
 on:
-   push:
+   merge_group:
     branches: master
 jobs:
     run-testimio-cli:
